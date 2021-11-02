@@ -7,7 +7,7 @@ import javax.ws.rs.core.MediaType;
 public class Test {
     @GET
     public String getTest() {
-        return "Hello World";
+        return "Hello, kør denne hjemmeside på localhost 8080";
     }
 
     @Path("json")
@@ -16,4 +16,5 @@ public class Test {
     public Hello getHelloJson() {
         return new Hello();
     }
+
 }
